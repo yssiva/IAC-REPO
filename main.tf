@@ -7,8 +7,8 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket         = "success-12345"
-    dynamodb_table = "success-12345"
+    bucket         = "san-bucket6383814620"
+    dynamodb_table = "san-table"
     key            = "terraform.tfstate"
     region         = "us-east-2"
     encrypt        = true
