@@ -7,7 +7,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket         = "san-bucket6383814620"
+    bucket         = "san-bucket6383814621"
     dynamodb_table = "san-table"
     key            = "terraform.tfstate"
     region         = "us-east-2"
